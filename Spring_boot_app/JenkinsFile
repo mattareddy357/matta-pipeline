@@ -1,6 +1,6 @@
 node {
 	stage('SourceCodeMgmt') {
-		git changelog: false, poll: false, url: 'https://github.com/vilvamani/spring-boot-swagger2.git'
+		git changelog: false, poll: false, url: 'https://github.com/mattareddy357/matta-pipeline.git'
 	}
 	
 	stage('Build and Package') {
